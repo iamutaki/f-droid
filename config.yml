@@ -1,15 +1,17 @@
 ---
-repo_name: 'Cacing69 F-Droid Repository'
+repo_name: 'Cacing69 Repository'
 
 repo_icon: 'icon.png'
 
 repo_description: Personal F-Droid repository for experimental and production Android apps.
 
+repo_url: https://cacing69.github.io/f-droid/repo
+
 # Copy this file to config.yml, then amend the settings below according to
 # your system configuration.
 
 # Custom path to the Android SDK, defaults to $ANDROID_HOME
-sdk_path: /Users/ibnulmutaki/Library/Android/sdk
+# sdk_path: /Users/ibnulmutaki/Library/Android/sdk
 
 # Paths to installed versions of the Android NDK.  This will be
 # automatically filled out from well known sources like

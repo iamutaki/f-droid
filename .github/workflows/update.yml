@@ -28,10 +28,15 @@ jobs:
           echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > keystore.p12
 
       - name: Update config.yml with secrets
+        env:
+          REPO_KEYALIAS: ${{ secrets.REPO_KEYALIAS }}
+          KEYSTORE_PASS: ${{ secrets.KEYSTORE_PASS }}
+          KEY_PASS: ${{ secrets.KEY_PASS }}
         run: |
-          sed -i "s/repo_keyalias.*/repo_keyalias: '${{ secrets.REPO_KEYALIAS }}'/g" config.yml
-          sed -i "s/keystorepass.*/keystorepass: '${{ secrets.KEYSTORE_PASS }}'/g" config.yml
-          sed -i "s/keypass.*/keypass: '${{ secrets.KEY_PASS }}'/g" config.yml
+          sed -i "s|repo_keyalias:.*|repo_keyalias: '${REPO_KEYALIAS}'|g" config.yml
+          sed -i "s|keystorepass:.*|keystorepass: '${KEYSTORE_PASS}'|g" config.yml
+          sed -i "s|keypass:.*|keypass: '${KEY_PASS}'|g" config.yml
+          sed -i "s|sdk_path:.*|# sdk_path: auto-detected|g" config.yml
 
       - name: Run fdroid update
         run: fdroid update -c
