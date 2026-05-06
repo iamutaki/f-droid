@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cacing69 Repository</title>
+
+  <style>
+    :root {
+      --bg: #121314;
+      --surface: #242526;
+      --text: #c9d1d9;
+      --muted: #8b949e;
+      --border: #2A2B2C;
+      --accent: #3994BC;
+      --string: #a5d6ff;
+      --tag: #7ee787;
+      --keyword: #ff7b72;
+      --variable: #ffa657;
+      --function: #d2a8ff;
+      --constant: #79c0ff;
+      --link: #48A0C7;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "SF Mono", "Cascadia Code", "Fira Code", "Courier New", Courier, monospace;
+      min-height: 100vh;
+      font-size: 14px;
+      line-height: 1.7;
+      font-weight: 500;
+    }
+
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 48px 24px;
+    }
+
+    /* -- url + qr (top) -- */
+
+    .url-section {
+      margin-bottom: 32px;
+    }
+
+    .url-row {
+      display: flex;
+      gap: 12px;
+      align-items: stretch;
+      margin-bottom: 10px;
+      flex-direction: row;
+    }
+
+    .url-box {
+      flex: 1;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+    }
+
+    .url-box code {
+      color: var(--string);
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      word-break: break-all;
+      display: block;
+    }
+
+    .qr-box {
+      flex-shrink: 0;
+      background: var(--text);
+      border: 1px solid var(--border);
+      padding: 8px;
+      line-height: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .qr-box canvas { display: block; }
+
+    .url-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .copy-btn {
+      background: transparent;
+      color: var(--accent);
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .copy-btn:hover { background: var(--surface); }
+
+    .qr-hint {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    /* -- header -- */
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+    }
+
+    .header img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .header-info {
+      flex: 1;
+    }
+
+    .header h1 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .header .desc {
+      color: var(--muted);
+      font-size: 12px;
+      margin-top: 2px;
+    }
+
+    .donate-link {
+      display: inline-block;
+      color: var(--variable);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      padding: 6px 14px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .donate-link:hover {
+      background: var(--surface);
+    }
+
+    /* -- fingerprint -- */
+
+    .fingerprint {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 28px;
+    }
+
+    .fingerprint .label {
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+
+    .fingerprint code {
+      color: var(--variable);
+      font-size: 11px;
+      font-weight: 600;
+      word-break: break-all;
+      display: block;
+    }
+
+    /* -- how to -- */
+
+    .section-label {
+      color: var(--function);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+    }
+
+    .steps {
+      list-style: none;
+      counter-reset: step;
+      margin-bottom: 36px;
+    }
+
+    .steps li {
+      counter-increment: step;
+      padding: 6px 0 6px 24px;
+      position: relative;
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .steps li::before {
+      content: counter(step) ".";
+      position: absolute;
+      left: 0;
+      color: var(--keyword);
+      font-weight: 700;
+    }
+
+    .steps li strong { color: var(--text); }
+
+    /* -- fdroid banner -- */
+
+    .fdroid-banner {
+      background: #c9d1d9;
+      display: flex;
+      justify-content: center;
+      padding: 10px 24px;
+    }
+
+    .fdroid-banner img {
+      height: 36px;
+      width: auto;
+    }
+
+    /* -- footer -- */
+
+    .footer {
+      margin-top: 48px;
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 480px) {
+      .container { padding: 32px 16px; }
+      .url-row { flex-direction: column; }
+      .url-row .qr-box { order: -1; }
+      .donate-link { display: none; }
+      .donate-mobile { display: block; margin-top: 10px; margin-bottom: 20px; }
+    }
+
+    @media (min-width: 481px) {
+      .donate-mobile { display: none; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="fdroid-banner">
+    <img class="fdroid-logo" src="fdroid.svg" alt="F-Droid" />
+  </div>
+  <div class="container">
+
+    <div class="url-section">
+      <div class="url-row">
+        <div class="url-box">
+          <code id="repo-url">https://cacing69.github.io/f-droid/repo?fingerprint=8DB384FF37887528A99440A47A5AFFC0315CBBEABBD9990509F5F2CB2307601A</code>
+        </div>
+        <div class="qr-box">
+          <canvas id="qr-canvas"></canvas>
+        </div>
+      </div>
+      <div class="url-actions">
+        <button class="copy-btn" onclick="copyURL()">Copy</button>
+        <span class="qr-hint">or scan QR with F-Droid</span>
+      </div>
+    </div>
+
+    <div class="header">
+      <img src="https://avatars.githubusercontent.com/u/36250619?v=4" alt="icon" />
+      <div class="header-info">
+        <h1>Cacing69 Repository</h1>
+        <div class="desc">Personal repo for Android apps</div>
+      </div>
+      <a class="donate-link" href="https://saweria.co/cacing69" target="_blank" rel="noopener">Support via Saweria</a>
+    </div>
+    <a class="donate-link donate-mobile" href="https://saweria.co/cacing69" target="_blank" rel="noopener">Support via Saweria</a>
+
+    <div class="fingerprint">
+      <div class="label">Fingerprint</div>
+      <code>8DB384FF37887528A99440A47A5AFFC0315CBBEABBD9990509F5F2CB2307601A</code>
+    </div>
+
+    <div class="section-label">How to add</div>
+    <ol class="steps">
+      <li>Open <strong>F-Droid</strong> &rarr; Settings &rarr; Repositories</li>
+      <li>Scan QR or tap <strong>+</strong> and paste the URL</li>
+      <li>Save &mdash; F-Droid will fetch the index</li>
+    </ol>
+
+    <div class="footer">
+      cacing69 &bull; github pages
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+  <script>
+    (function () {
+      var url = document.getElementById('repo-url').textContent;
+      var qr = qrcode(0, 'M');
+      qr.addData(url);
+      qr.make();
+
+      var canvas = document.getElementById('qr-canvas');
+      var moduleCount = qr.getModuleCount();
+      var cellSize = 4;
+      var totalSize = cellSize * moduleCount;
+
+      canvas.width = totalSize;
+      canvas.height = totalSize;
+
+      var ctx = canvas.getContext('2d');
+      ctx.fillStyle = '#c9d1d9';
+      ctx.fillRect(0, 0, totalSize, totalSize);
+
+      for (var r = 0; r < moduleCount; r++) {
+        for (var c = 0; c < moduleCount; c++) {
+          if (qr.isDark(r, c)) {
+            ctx.fillStyle = '#121314';
+            ctx.fillRect(c * cellSize, r * cellSize, cellSize, cellSize);
+          }
+        }
+      }
+    })();
+
+    function copyURL() {
+      var url = document.getElementById('repo-url').textContent;
+      navigator.clipboard.writeText(url).then(function () {
+        var btn = document.querySelector('.copy-btn');
+        btn.textContent = 'COPIED';
+        setTimeout(function () { btn.textContent = 'Copy'; }, 1500);
+      });
+    }
+  </script>
+</body>
+</html>
