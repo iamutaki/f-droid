@@ -1,0 +1,16 @@
+Name: Curel
+Summary: cUrl client
+Description: A lightweight curl client for sending HTTP requests and inspecting responses with syntax highlighting.
+
+Categories:
+  - Internet
+  - Development
+  - Security
+
+WebSite: https://cacing69.github.io/
+SourceCode: https://github.com/cacing69/curel
+IssueTracker: https://github.com/cacing69/curel/issues
+
+
+MinSdk: 21
+TargetSdk: 33

@@ -1,0 +1,45 @@
+name: Update Cacing69 Repo
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install fdroidserver
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fdroidserver apksigner
+
+      - name: Decode Keystore
+        run: |
+          echo "${{ secrets.KEYSTORE_BASE64 }}" | base64 --decode > keystore.p12
+
+      - name: Update config.yml with secrets
+        run: |
+          sed -i "s/repo_keyalias.*/repo_keyalias: '${{ secrets.REPO_KEYALIAS }}'/g" config.yml
+          sed -i "s/keystorepass.*/keystorepass: '${{ secrets.KEYSTORE_PASS }}'/g" config.yml
+          sed -i "s/keypass.*/keypass: '${{ secrets.KEY_PASS }}'/g" config.yml
+
+      - name: Run fdroid update
+        run: fdroid update -c
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          keep_files: false
