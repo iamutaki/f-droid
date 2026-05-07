@@ -1,5 +1,5 @@
 Name: Curel
-Summary: cUrl client
+Summary: Lightweight curl client for sending HTTP requests and inspecting responses
 Description: A lightweight curl client for sending HTTP requests and inspecting responses with syntax highlighting.
 
 Categories:
