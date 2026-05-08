@@ -1,6 +1,17 @@
 Name: Curel
-Summary: Lightweight curl client for sending HTTP requests and inspecting responses
-Description: A lightweight curl client for sending HTTP requests and inspecting responses with syntax highlighting.
+Summary: Lightweight cUrl client for sending HTTP requests and inspecting responses
+Description: |
+  A lightweight curl client for sending HTTP requests and inspecting responses with syntax highlighting.
+
+  Features:
+  - Paste and execute curl commands directly
+  - Syntax-highlighted response viewer
+  - Search within responses with highlighted matches
+  - HTML preview mode for web responses
+  - Built-in request builder for HTTP requests
+  - Save responses to file
+  - Curl cheat sheet with real API examples
+  - Terminal-inspired dark UI
 
 Categories:
   - Internet
