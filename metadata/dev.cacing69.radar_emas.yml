@@ -1,0 +1,37 @@
+Name: Radar Emas
+Summary: Free, open-source gold price tracker - monitor harga emas real-time
+Description: |
+  A free, open-source gold price tracker. Monitor real-time gold prices from multiple sources, set price alerts, and track market trends - all from your device. No accounts, no tracking.
+
+  Features:
+
+  Price Tracking:
+  - Real-time gold price updates from multiple sources
+  - Support for various gold types (Antam, Logam Mulia, etc.)
+  - Price history with charts and trend analysis
+  - Multiple karat support (24K, 22K, 21K, 18K)
+
+  Alerts & Notifications:
+  - Customizable price alerts for buy/sell targets
+  - Push notifications when price thresholds are reached
+  - Price change percentage alerts
+
+  Market Data:
+  - Buy and sell price display
+  - Price spread calculation
+  - Daily, weekly, and monthly price change tracking
+  - Currency conversion support
+
+  User Interface:
+  - Clean and intuitive dashboard
+  - Dark theme support
+  - Home screen widget for quick price glance
+  - Offline last-known price display
+
+Categories:
+  - Finance
+  - Internet
+
+WebSite: https://cacing69.github.io/
+SourceCode: https://github.com/cacing69/radar-emas
+IssueTracker: https://github.com/cacing69/radar-emas/issues
