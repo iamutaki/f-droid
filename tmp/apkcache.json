@@ -32,7 +32,7 @@
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
     "size": 24169254,
     "apkName": "dev.cacing69.curel-arm64-v8a.apk",
-    "added": 1778961761.594727
+    "added": 1778966154.741571
   },
   "dev.cacing69.curel-armeabi-v7a.apk": {
     "hash": "ff82d15d949b0892bcbddbb1410b3c263f39915dab09d15faa059eafc406ca52",
@@ -65,7 +65,7 @@
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
     "size": 21762612,
     "apkName": "dev.cacing69.curel-armeabi-v7a.apk",
-    "added": 1778961761.985839
+    "added": 1778966155.114301
   },
   "dev.cacing69.curel-x86_64.apk": {
     "hash": "79a127eaad29567dbb79fd02eb07324c012b54d416c45c15d21a2786a59d67f7",
@@ -98,10 +98,10 @@
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
     "size": 25792599,
     "apkName": "dev.cacing69.curel-x86_64.apk",
-    "added": 1778961762.363287
+    "added": 1778966155.457074
   },
   "dev.cacing69.radar_emas-arm64-v8a.apk": {
-    "hash": "fa1e1fa448e69ee430ee3cd50b998fd64ce0a2c9eeea1e3069b9b50c29290f39",
+    "hash": "5942d879b3063587018d85686e143b5fad2385eb46811ffdcec780cd7c9b588e",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -119,9 +119,9 @@
     "icons": {},
     "antiFeatures": {},
     "packageName": "dev.cacing69.radar_emas",
-    "versionCode": 2107,
+    "versionCode": 2108,
     "name": "Radar Emas",
-    "versionName": "0.1.7",
+    "versionName": "0.1.8",
     "minSdkVersion": 24,
     "targetSdkVersion": 36,
     "nativecode": [
@@ -131,10 +131,10 @@
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
     "size": 19335305,
     "apkName": "dev.cacing69.radar_emas-arm64-v8a.apk",
-    "added": 1778961762.654981
+    "added": 1778966155.730501
   },
   "dev.cacing69.radar_emas-armeabi-v7a.apk": {
-    "hash": "1a949716e5858d6d8499bc88aed2e59b99cbc73db9b3c998c5a36a0ea6543b79",
+    "hash": "4ffaa03355f8c77eb0a5bbda7a152762cef7164208c68e04466c931452d68c4a",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -152,9 +152,9 @@
     "icons": {},
     "antiFeatures": {},
     "packageName": "dev.cacing69.radar_emas",
-    "versionCode": 1107,
+    "versionCode": 1108,
     "name": "Radar Emas",
-    "versionName": "0.1.7",
+    "versionName": "0.1.8",
     "minSdkVersion": 24,
     "targetSdkVersion": 36,
     "nativecode": [
@@ -164,10 +164,10 @@
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
     "size": 16900275,
     "apkName": "dev.cacing69.radar_emas-armeabi-v7a.apk",
-    "added": 1778961762.931834
+    "added": 1778966156.018827
   },
   "dev.cacing69.radar_emas-x86_64.apk": {
-    "hash": "1bf6b1b11ad3331fdc14a344dddbdf32eec02147a4a1af70f2ebd3b190a1cbb2",
+    "hash": "383b6f494a1ac5efdc501d60cf23c1b2fa0707d9b745fedb07fd79a6ac567328",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -185,9 +185,9 @@
     "icons": {},
     "antiFeatures": {},
     "packageName": "dev.cacing69.radar_emas",
-    "versionCode": 4107,
+    "versionCode": 4108,
     "name": "Radar Emas",
-    "versionName": "0.1.7",
+    "versionName": "0.1.8",
     "minSdkVersion": 24,
     "targetSdkVersion": 36,
     "nativecode": [
@@ -197,7 +197,7 @@
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
     "size": 20762336,
     "apkName": "dev.cacing69.radar_emas-x86_64.apk",
-    "added": 1778961763.241119
+    "added": 1778966156.310584
   },
   ".DS_Store": {
     "name": ".DS_Store",
@@ -209,6 +209,6 @@
     "versionName": "d93be65",
     "packageName": "d93be65ad121e9771889578f35e48410135c1b170bf6f0a572fcea1341aaf99e",
     "size": 6148,
-    "added": 1778961763.241768
+    "added": 1778966156.311231
   }
 }
