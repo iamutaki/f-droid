@@ -32,7 +32,7 @@
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
     "size": 24169254,
     "apkName": "dev.cacing69.curel-arm64-v8a.apk",
-    "added": 1779009906.548717
+    "added": 1779010111.867483
   },
   "dev.cacing69.curel-armeabi-v7a.apk": {
     "hash": "ff82d15d949b0892bcbddbb1410b3c263f39915dab09d15faa059eafc406ca52",
@@ -65,7 +65,7 @@
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
     "size": 21762612,
     "apkName": "dev.cacing69.curel-armeabi-v7a.apk",
-    "added": 1779009906.906452
+    "added": 1779010112.195681
   },
   "dev.cacing69.curel-x86_64.apk": {
     "hash": "79a127eaad29567dbb79fd02eb07324c012b54d416c45c15d21a2786a59d67f7",
@@ -98,7 +98,7 @@
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
     "size": 25792599,
     "apkName": "dev.cacing69.curel-x86_64.apk",
-    "added": 1779009907.282742
+    "added": 1779010112.520151
   },
   "dev.cacing69.radar_emas-arm64-v8a.apk": {
     "hash": "e1e274b48fd2baf678ea75bc44a3febfccb2b1adeef7ce86df2d3a05ebed5140",
@@ -131,7 +131,7 @@
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
     "size": 19335389,
     "apkName": "dev.cacing69.radar_emas-arm64-v8a.apk",
-    "added": 1779009907.566445
+    "added": 1779010112.785627
   },
   "dev.cacing69.radar_emas-armeabi-v7a.apk": {
     "hash": "70bc7f0d98384af0a4f146dee45d65b10f6594cb55893ff35fee652b06257dd9",
@@ -164,7 +164,7 @@
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
     "size": 16949511,
     "apkName": "dev.cacing69.radar_emas-armeabi-v7a.apk",
-    "added": 1779009907.822032
+    "added": 1779010113.05146
   },
   "dev.cacing69.radar_emas-x86_64.apk": {
     "hash": "9fbccd33923df67728c6ba75b2bbcf95807daee51100d5a52ccabf59ccc52c68",
@@ -197,18 +197,18 @@
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
     "size": 20762420,
     "apkName": "dev.cacing69.radar_emas-x86_64.apk",
-    "added": 1779009908.131638
+    "added": 1779010113.314632
   },
   ".DS_Store": {
     "name": ".DS_Store",
     "apkName": ".DS_Store",
-    "hash": "d93be65ad121e9771889578f35e48410135c1b170bf6f0a572fcea1341aaf99e",
+    "hash": "2b35f189dc21aecafb7182b7386f49c80d339261acf8c1f863348c577c7154d9",
     "hashType": "sha256",
     "ipfsCIDv1": null,
     "versionCode": 0,
-    "versionName": "d93be65",
-    "packageName": "d93be65ad121e9771889578f35e48410135c1b170bf6f0a572fcea1341aaf99e",
+    "versionName": "2b35f18",
+    "packageName": "2b35f189dc21aecafb7182b7386f49c80d339261acf8c1f863348c577c7154d9",
     "size": 6148,
-    "added": 1779009908.132315
+    "added": 1779010113.315211
   }
 }
