@@ -1,0 +1,35 @@
+Name: JNN Mobile (Staging)
+Summary: WiFi service management app
+Description: |
+  A mobile app for managing WiFi/Internet services. Designed for field personnel and resellers to handle daily operations.
+
+  Features:
+
+  Voucher Management:
+  - Send WiFi vouchers to customers
+  - Track sent voucher status
+
+  Sales:
+  - Record WiFi service sales transactions
+  - Track sales history
+
+  Activity Reports:
+  - Create daily activity reports
+  - Document field work
+
+  Master Data:
+  - Manage subdistrict and village coverage area data
+  - Manage WiFi service product data
+  - Manage technical personnel data
+  - Manage reseller data
+
+  Profile:
+  - Account info and profile settings
+
+Categories:
+  - Internet
+  - Office
+
+WebSite: https://iamutaki.github.io/
+SourceCode: https://github.com/iamutaki/jnn_mobile
+IssueTracker: https://github.com/iamutaki/jnn_mobile/issues
