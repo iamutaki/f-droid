@@ -1,7 +1,7 @@
 Name: Curel
-Summary: Free, open-source, git-native curl workspace — local-first HTTP client
+Summary: Free, open-source, git-native curl workspace - local-first HTTP client
 Description: |
-  A free, open-source, git-native curl workspace. Local-first — your data stays on your device, synced through your own git repositories. No cloud, no accounts, no tracking.
+  A free, open-source, git-native curl workspace. Local-first - your data stays on your device, synced through your own git repositories. No cloud, no accounts, no tracking.
 
   Features:
 

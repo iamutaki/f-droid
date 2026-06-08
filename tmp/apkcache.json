@@ -1,0 +1,421 @@
+{
+  "METADATA_VERSION": 20002,
+  "allow_disabled_algorithms": false,
+  ".DS_Store": {
+    "name": ".DS_Store",
+    "apkName": ".DS_Store",
+    "hash": "2b35f189dc21aecafb7182b7386f49c80d339261acf8c1f863348c577c7154d9",
+    "hashType": "sha256",
+    "ipfsCIDv1": null,
+    "versionCode": 0,
+    "versionName": "2b35f18",
+    "packageName": "2b35f189dc21aecafb7182b7386f49c80d339261acf8c1f863348c577c7154d9",
+    "size": 6148,
+    "added": 1780951948.998655
+  },
+  "dev.cacing69.curel-arm64-v8a.apk": {
+    "hash": "5e995c9eb8582eb94d105f3073004ef0df7b34a8dbc6fd72ab8df46727d40fcb",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "dev.cacing69.curel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "dev.cacing69.curel",
+    "versionCode": 12500,
+    "name": "Curel",
+    "versionName": "1.5.0",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "arm64-v8a"
+    ],
+    "sig": "4de904f847a9c4421e0a4af61334925b",
+    "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
+    "size": 24169254,
+    "apkName": "dev.cacing69.curel-arm64-v8a.apk",
+    "added": 1780951946.99566
+  },
+  "dev.cacing69.curel-armeabi-v7a.apk": {
+    "hash": "ff82d15d949b0892bcbddbb1410b3c263f39915dab09d15faa059eafc406ca52",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "dev.cacing69.curel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "dev.cacing69.curel",
+    "versionCode": 11500,
+    "name": "Curel",
+    "versionName": "1.5.0",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "armeabi-v7a"
+    ],
+    "sig": "4de904f847a9c4421e0a4af61334925b",
+    "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
+    "size": 21762612,
+    "apkName": "dev.cacing69.curel-armeabi-v7a.apk",
+    "added": 1780951947.233907
+  },
+  "dev.cacing69.curel-x86_64.apk": {
+    "hash": "79a127eaad29567dbb79fd02eb07324c012b54d416c45c15d21a2786a59d67f7",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "dev.cacing69.curel.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "dev.cacing69.curel",
+    "versionCode": 14500,
+    "name": "Curel",
+    "versionName": "1.5.0",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "x86_64"
+    ],
+    "sig": "4de904f847a9c4421e0a4af61334925b",
+    "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
+    "size": 25792599,
+    "apkName": "dev.cacing69.curel-x86_64.apk",
+    "added": 1780951947.483729
+  },
+  "dev.cacing69.radar_emas-arm64-v8a.apk": {
+    "hash": "436b46799399e875570047cdfe6c15da8b68f58def79205a6db25df3a40724b8",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "dev.cacing69.radar_emas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "dev.cacing69.radar_emas",
+    "versionCode": 2112,
+    "name": "Radar Emas",
+    "versionName": "0.1.12",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "arm64-v8a"
+    ],
+    "sig": "4de904f847a9c4421e0a4af61334925b",
+    "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
+    "size": 19335389,
+    "apkName": "dev.cacing69.radar_emas-arm64-v8a.apk",
+    "added": 1780951947.680982
+  },
+  "dev.cacing69.radar_emas-armeabi-v7a.apk": {
+    "hash": "bb731d32a42aa30e154346f9f7de3461b832764eae2b0904431d95cc1b2d8ebc",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "dev.cacing69.radar_emas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "dev.cacing69.radar_emas",
+    "versionCode": 1112,
+    "name": "Radar Emas",
+    "versionName": "0.1.12",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "armeabi-v7a"
+    ],
+    "sig": "4de904f847a9c4421e0a4af61334925b",
+    "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
+    "size": 16965895,
+    "apkName": "dev.cacing69.radar_emas-armeabi-v7a.apk",
+    "added": 1780951947.871732
+  },
+  "dev.cacing69.radar_emas-x86_64.apk": {
+    "hash": "86f38a0832175e055f693409dbaaf93d419b0f3d9371b5a8192a31ab438879d1",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "dev.cacing69.radar_emas.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "dev.cacing69.radar_emas",
+    "versionCode": 4112,
+    "name": "Radar Emas",
+    "versionName": "0.1.12",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "x86_64"
+    ],
+    "sig": "4de904f847a9c4421e0a4af61334925b",
+    "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
+    "size": 20762420,
+    "apkName": "dev.cacing69.radar_emas-x86_64.apk",
+    "added": 1780951948.077411
+  },
+  "dev.iamutaki.jnn_mobile.staging-arm64-v8a.apk": {
+    "hash": "3c1f81ead71fafa5c1af89b0eba050b6bb3f805e23556929ce99e7ea64084ca1",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "dev.iamutaki.jnn_mobile.staging.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "dev.iamutaki.jnn_mobile.staging",
+    "versionCode": 2004,
+    "name": "JNN Mobile (Staging)",
+    "versionName": "0.0.4",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "arm64-v8a"
+    ],
+    "sig": "4de904f847a9c4421e0a4af61334925b",
+    "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
+    "size": 34840848,
+    "apkName": "dev.iamutaki.jnn_mobile.staging-arm64-v8a.apk",
+    "added": 1780951948.387275
+  },
+  "dev.iamutaki.jnn_mobile.staging-armeabi-v7a.apk": {
+    "hash": "b0f4ab827c23eb423806c8f8c5af86233e8133ee69547c9e540b7e37ab0c54d0",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "dev.iamutaki.jnn_mobile.staging.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "dev.iamutaki.jnn_mobile.staging",
+    "versionCode": 1004,
+    "name": "JNN Mobile (Staging)",
+    "versionName": "0.0.4",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "armeabi-v7a"
+    ],
+    "sig": "4de904f847a9c4421e0a4af61334925b",
+    "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
+    "size": 29500020,
+    "apkName": "dev.iamutaki.jnn_mobile.staging-armeabi-v7a.apk",
+    "added": 1780951948.692308
+  },
+  "dev.iamutaki.jnn_mobile.staging-x86_64.apk": {
+    "hash": "3fa2e6313f8b9ad47ec538edde73b4237a6a3503e89ae571b6aa8a902f45a125",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        null
+      ],
+      [
+        "android.permission.VIBRATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "dev.iamutaki.jnn_mobile.staging.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "dev.iamutaki.jnn_mobile.staging",
+    "versionCode": 4004,
+    "name": "JNN Mobile (Staging)",
+    "versionName": "0.0.4",
+    "minSdkVersion": 24,
+    "targetSdkVersion": 36,
+    "nativecode": [
+      "x86_64"
+    ],
+    "sig": "4de904f847a9c4421e0a4af61334925b",
+    "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
+    "size": 36613796,
+    "apkName": "dev.iamutaki.jnn_mobile.staging-x86_64.apk",
+    "added": 1780951948.997572
+  }
+}
