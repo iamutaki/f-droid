@@ -17,10 +17,9 @@ Personal F-Droid repository for experimental and production Android apps.
 
 ## Available Apps
 
-| App | Description |
-| --- | --- |
-| [Curel](https://github.com/iamutaki/curel) | Free, open-source, git-native curl workspace - local-first HTTP client |
-| [Radar Emas](https://github.com/iamutaki/radar-emas) | Free, open-source gold price tracker - monitor harga emas real-time |
+- **[Curel](https://github.com/iamutaki/curel)** - Free, open-source, git-native curl workspace - local-first HTTP client
+- **[Radar Emas](https://github.com/iamutaki/radar-emas)** - Free, open-source gold price tracker - monitor harga emas real-time
+- **[JNN Mobile (Staging)](https://github.com/iamutaki/jnn_mobile)** - A mobile app for managing WiFi/Internet services.
 
 ## Support
 
