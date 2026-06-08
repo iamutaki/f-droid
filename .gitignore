@@ -1,2 +1,5 @@
 keystore.p12
 keystore_base64.txt
+
+# macOS
+.DS_Store
