@@ -212,7 +212,7 @@
     "added": 1780951948.077411
   },
   "dev.iamutaki.jnn_mobile.staging-arm64-v8a.apk": {
-    "hash": "edac65b0d30fc9439a5193a5dc2922511f42eddd9788d1ddffea1de43cd7f1bd",
+    "hash": "40669c650bb4747c745268752df1c409213fca0bd89e4000835280f76f1045b6",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -237,6 +237,10 @@
       ],
       [
         "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.READ_CONTACTS",
         null
       ],
       [
@@ -266,9 +270,9 @@
     "icons": {},
     "antiFeatures": {},
     "packageName": "dev.iamutaki.jnn_mobile.staging",
-    "versionCode": 2005,
+    "versionCode": 2008,
     "name": "JNN Mobile (Staging)",
-    "versionName": "0.0.5",
+    "versionName": "0.0.8",
     "minSdkVersion": 24,
     "targetSdkVersion": 36,
     "nativecode": [
@@ -276,12 +280,12 @@
     ],
     "sig": "4de904f847a9c4421e0a4af61334925b",
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
-    "size": 34842196,
+    "size": 35865916,
     "apkName": "dev.iamutaki.jnn_mobile.staging-arm64-v8a.apk",
     "added": 1780951948.0
   },
   "dev.iamutaki.jnn_mobile.staging-armeabi-v7a.apk": {
-    "hash": "a498db6090d40e496fb9adcb5ccea6a7e68bdd936e114cc4cf65962da0457d08",
+    "hash": "ad5acb9a8410a5aa974ad4f69f650e21fe20257638ebc0d3c3e3b401ea0e17ab",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -306,6 +310,10 @@
       ],
       [
         "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.READ_CONTACTS",
         null
       ],
       [
@@ -335,9 +343,9 @@
     "icons": {},
     "antiFeatures": {},
     "packageName": "dev.iamutaki.jnn_mobile.staging",
-    "versionCode": 1005,
+    "versionCode": 1008,
     "name": "JNN Mobile (Staging)",
-    "versionName": "0.0.5",
+    "versionName": "0.0.8",
     "minSdkVersion": 24,
     "targetSdkVersion": 36,
     "nativecode": [
@@ -345,12 +353,12 @@
     ],
     "sig": "4de904f847a9c4421e0a4af61334925b",
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
-    "size": 29501364,
+    "size": 30475934,
     "apkName": "dev.iamutaki.jnn_mobile.staging-armeabi-v7a.apk",
     "added": 1780951948.0
   },
   "dev.iamutaki.jnn_mobile.staging-x86_64.apk": {
-    "hash": "7a2845eba933f217d8e25b2ad2ab0a06b0843910191ecdd88fe90c134fe7158e",
+    "hash": "ffac6671b8e22005ff54a9de3c24492755bc270af5fcc72d53cd2a321580615e",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -375,6 +383,10 @@
       ],
       [
         "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.READ_CONTACTS",
         null
       ],
       [
@@ -404,9 +416,9 @@
     "icons": {},
     "antiFeatures": {},
     "packageName": "dev.iamutaki.jnn_mobile.staging",
-    "versionCode": 4005,
+    "versionCode": 4008,
     "name": "JNN Mobile (Staging)",
-    "versionName": "0.0.5",
+    "versionName": "0.0.8",
     "minSdkVersion": 24,
     "targetSdkVersion": 36,
     "nativecode": [
@@ -414,7 +426,7 @@
     ],
     "sig": "4de904f847a9c4421e0a4af61334925b",
     "signer": "251b142020e72938df647f22a373b93d9240ba3cbcd232f86772ad9007564a44",
-    "size": 36615144,
+    "size": 37622477,
     "apkName": "dev.iamutaki.jnn_mobile.staging-x86_64.apk",
     "added": 1780951948.0
   }
