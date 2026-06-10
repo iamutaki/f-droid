@@ -212,7 +212,7 @@
     "added": 1780951948.077411
   },
   "dev.iamutaki.jnn_mobile.staging-arm64-v8a.apk": {
-    "hash": "40669c650bb4747c745268752df1c409213fca0bd89e4000835280f76f1045b6",
+    "hash": "66b8f3be798dcf9d74120eb506052c3be6d3b5629e9cd3838e767c3c67c135f9",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -270,9 +270,9 @@
     "icons": {},
     "antiFeatures": {},
     "packageName": "dev.iamutaki.jnn_mobile.staging",
-    "versionCode": 2008,
+    "versionCode": 2009,
     "name": "JNN Mobile (Staging)",
-    "versionName": "0.0.8",
+    "versionName": "0.0.9",
     "minSdkVersion": 24,
     "targetSdkVersion": 36,
     "nativecode": [
@@ -285,7 +285,7 @@
     "added": 1780951948.0
   },
   "dev.iamutaki.jnn_mobile.staging-armeabi-v7a.apk": {
-    "hash": "ad5acb9a8410a5aa974ad4f69f650e21fe20257638ebc0d3c3e3b401ea0e17ab",
+    "hash": "6644a198d05f077dda4091b499aebc348c28700303f357b886ad8e180b037d6f",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -343,9 +343,9 @@
     "icons": {},
     "antiFeatures": {},
     "packageName": "dev.iamutaki.jnn_mobile.staging",
-    "versionCode": 1008,
+    "versionCode": 1009,
     "name": "JNN Mobile (Staging)",
-    "versionName": "0.0.8",
+    "versionName": "0.0.9",
     "minSdkVersion": 24,
     "targetSdkVersion": 36,
     "nativecode": [
@@ -358,7 +358,7 @@
     "added": 1780951948.0
   },
   "dev.iamutaki.jnn_mobile.staging-x86_64.apk": {
-    "hash": "ffac6671b8e22005ff54a9de3c24492755bc270af5fcc72d53cd2a321580615e",
+    "hash": "de1b5cf142f907bcc755ed541edbeba1efdb5db07788554f49b02faa91f8d21a",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -416,9 +416,9 @@
     "icons": {},
     "antiFeatures": {},
     "packageName": "dev.iamutaki.jnn_mobile.staging",
-    "versionCode": 4008,
+    "versionCode": 4009,
     "name": "JNN Mobile (Staging)",
-    "versionName": "0.0.8",
+    "versionName": "0.0.9",
     "minSdkVersion": 24,
     "targetSdkVersion": 36,
     "nativecode": [
